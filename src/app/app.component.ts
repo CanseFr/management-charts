@@ -3,6 +3,7 @@ import {HeaderComponent} from "./components/header/header.component";
 import {ServerStatusComponent} from "./components/server-status/server-status.component";
 import {TrafficComponent} from "./components/traffic/traffic.component";
 import {SupportClientComponent} from "./components/support-client/support-client.component";
+import {DashboardItemComponent} from "./components/dashboard-item/dashboard-item.component";
 
 @Component({
   selector: 'app-root',
@@ -12,7 +13,8 @@ import {SupportClientComponent} from "./components/support-client/support-client
     HeaderComponent,
     ServerStatusComponent,
     TrafficComponent,
-    SupportClientComponent
+    SupportClientComponent,
+    DashboardItemComponent
   ]
 })
 export class AppComponent {
