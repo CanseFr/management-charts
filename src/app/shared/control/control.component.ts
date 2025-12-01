@@ -8,5 +8,5 @@ import {Component, input} from '@angular/core';
   styleUrl: './control.component.css'
 })
 export class ControlComponent {
-  label = input.required<string>()
+  label=input.required<string>()
 }
